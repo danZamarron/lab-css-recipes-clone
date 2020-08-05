@@ -1,0 +1,93 @@
+html { 
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+   }
+
+.container
+{
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+
+.relative
+{
+    position: relative;
+    border: 2px solid black;
+    padding: 25px;
+    background: url(../images/apple-pie.jpg);
+    background-repeat: cover;
+    background-size: 100%;
+    background-position: center;
+    height: 250px
+}
+
+.title
+{
+    color: white;;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: lighter;
+    letter-spacing: 3px;
+  
+}
+
+.container article {
+    font-size: 14px;
+    font-weight: lighter;
+    font-style: italic;
+    color: gray;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.container ul {
+    font-size: 14px;
+    font-weight: lighter;
+    color: gray;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+;}
+.container ol {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: justify;
+    color: gray;
+    line-height: 20px;
+    margin: 0;
+    padding: 20px;
+}
+.container h2 {
+    font-size: 18px;
+    font-weight: lighter;
+    color: gray;
+} 
+hr {
+    display: block;
+    border-style: inset;
+    border-color: darkgrey;
+    width: 100%;
+    border-width: 1px;
+}
+
+.ingredients, .directions
+{
+    text-align: left;
+}
+.directions
+{
+    margin-top: 20px;
+}
+.img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:35%;
+}
